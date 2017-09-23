@@ -21,7 +21,10 @@ public class basetest {
 	public void Launchbrowser(String browsertype, String url) throws InterruptedException{
 				
 	if(browsertype.equalsIgnoreCase("chrome")){
-	System.setProperty("webdriver.chrome.driver", "C:/Users/uday/chromedriver.exe");
+		
+		String driverExeFilePath = System.getProperty("user.dir") + "//drivers//chromedriver.exe";
+		
+	System.setProperty("webdriver.chrome.driver", driverExeFilePath);
       driver=new ChromeDriver();
 	driver.get(url);	
 	}
