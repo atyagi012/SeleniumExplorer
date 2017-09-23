@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testnetmatrix">
+<!--  driverType = Firefox, Chrome -->
+  <parameter name="browsertype" value="Chrome"></parameter>
+  <parameter name="url" value="https://netmatrixsolutions.com/dev/applicantz/app/login.php"></parameter>
+  
+  
+  <test name="Test">
+    <classes>
+     <!--  <class name="testnetmatrix_test.Logintest"/> -->
+      <class name="testnetmatrix_test.Postyourjob"/>
+      
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

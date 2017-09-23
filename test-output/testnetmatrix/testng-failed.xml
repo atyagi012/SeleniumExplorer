@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testnetmatrix]">
+  <parameter name="browsertype" value="Chrome"/>
+  <parameter name="url" value="https://netmatrixsolutions.com/dev/applicantz/app/login.php"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="testnetmatrix_test.Postyourjob">
+        <methods>
+          <include name="browserclose"/>
+          <include name="Launchbrowser"/>
+          <include name="Postjob"/>
+        </methods>
+      </class> <!-- testnetmatrix_test.Postyourjob -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [testnetmatrix] -->
